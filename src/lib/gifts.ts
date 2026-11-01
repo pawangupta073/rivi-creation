@@ -1,8 +1,8 @@
 import { z } from "zod";
-import rose from "@/assets/rose-bouquet.jpg";
-import chocolate from "@/assets/chocolate-bouquet.jpg";
-import hamper from "@/assets/gift-hamper.jpg";
-import custom from "@/assets/custom-gift.jpg";
+import rose from "@/assets/silk.jpeg";
+import chocolate from "@/assets/mixed_chocolate.jpeg";
+import hamper from "@/assets/budwise-2.jpeg";
+import custom from "@/assets/kinderjoy.jpeg";
 
 export const products = [
   {
