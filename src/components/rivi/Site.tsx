@@ -371,10 +371,25 @@ export function Contact({ standalone = false }: { standalone?: boolean }) {
       "_blank",
       "noopener,noreferrer"
     );
+  } else if (item.name === "Email") {
+    window.location.href = "mailto:rivicreation1701@gmail.com";
   } else {
     setNotice(`${item.name} details are coming soon.`);
   }
 }}
+                /*onClick={() => {
+  if (item.name === "WhatsApp") {
+    window.open(
+      `https://wa.me/919007343340?text=${encodeURIComponent(
+        "Hello RIVI CREATION! I want to enquire about your gifts."
+      )}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
+  } else {
+    setNotice(`${item.name} details are coming soon.`);
+  }
+}}*/
               >
                 {item.icon}
                 <span>
